@@ -22,7 +22,6 @@ class KibanaFull < Formula
       "plugins",
       "src",
       "webpackShims",
-      "x-pack",
     )
 
     Pathname.glob(libexec/"bin/*") do |f|
